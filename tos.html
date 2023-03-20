@@ -21,9 +21,21 @@
 			margin-top: 20px;
 			margin-bottom: 20px;
 		}
+		button {
+                        display: block;
+                        margin: 0 auto;
+                }
 	</style>
 </head>
 <body>
 	<h1>Sus Galaxy | Terms of Service</h1>
+	<p>By the way, you agree to the rules.</p>
+	<button onclick="verify()">Verify</button>
+        <p id="failure-to-view" style="display:none;">Failure to view rules.</p>
+       <script>
+         function verify() {
+         document.getElementById("failure-to-view").style.display = "block";
+        }
+       </script>
 </body>
 </html>

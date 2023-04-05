@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: susgalaxy.online
+Token: 13806aa3979339427d01bb911bf576e25e017b93069809e93dbfcad52fe6cd8c
